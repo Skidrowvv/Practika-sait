@@ -1,0 +1,299 @@
+/*Цвета 
+Синий:#1976d2;
+Серый:220, 221, 227;
+Оранжевый:214, 78, 24;
+*/
+
+
+
+
+
+
+:rgb(214, 78, 24)
+ a{
+    color: white; /* Цвет ссылок */
+   }
+   a:visited {
+    color:rgb(42, 109, 191); /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: black;
+
+}
+
+.texnika a{
+    color: white;
+}
+
+.sliderA{
+	position: absolute;
+	top:150px;
+	left:130px;
+}
+
+
+.sliderA > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+     .sliderA > input + label {
+        display: inline-block;
+        width: 15px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(64,199,129, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right:480px;
+        top: 310px;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderA > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderA > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+
+
+
+.sliderA > input + label + div + label {
+        display: none;
+    }
+
+    .sliderA > input:checked + label + div + label {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+
+     .sliderA > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderA > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+
+    .sliderA > div > p {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
+
+    .sliderA > input {
+        display: none;
+    }
+
+
+
+
+.moto{
+	position: absolute;
+	top:100px;
+	color:#46b103;
+	left:150px
+}
+
+#cena{
+	position: absolute;
+	right:525px;
+	top:230px;
+
+}
+
+.buy{
+	position: absolute;
+	top:245px;
+	right:290px;
+}
+
+#art{
+	position: absolute;
+	top: -55px;
+    left:-200px;
+    border:1px solid;
+    border-color:rgb(53,167,110);
+    background:rgb(64,199,129);
+}
+
+.OpsXarkt{
+	position: absolute;
+	top:440px;
+	right:519px;
+    font-size: 20px
+
+}
+
+.telef{
+	position: absolute;
+	right:10px;
+	top:1px;
+}
+
+.price{
+	color: #d00b0b;
+    font-size:25px;
+
+
+}
+
+h6{
+	color:rgb(214, 78, 24);
+}
+
+.texnika{
+	 background-color:rgb(64,199,129);
+}
+
+.glav{
+	background-image:url(file:///C:/Users/Skidrow/Desktop/Сайт%20Для%20Практики/Img/1480687886_1269.png);
+height:35px;	
+width:150px;
+color:green;
+
+}
+
+
+/*Оформление кнопок*/
+button {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+button:hover { background: rgb(53, 167, 110); }
+button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+/*Оформление кнопок*/
+
+input{
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb();
+  transition: 0.2s;
+  height:30px ;
+  width:80px;
+  position: absolute;
+  top: 350px;
+  right:580px;
+}
+
+.dostakva{
+    position: absolute;
+    top:520px;
+    left:130px;
+    color:gray
+}
+
+.ttx{
+    position: absolute;
+    top: 470px;
+    right:425px;
+    border:1px solid;
+    border-color:rgb(64,199,129);
+}
+
+
+
+/*Товар*/
+ {box-sizing: border-box;}
+.product-item {
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 2px solid gray;
+  background: white;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+  position: absolute;
+  top: 150px;
+}
+.product-item:hover {border-bottom: 2px solid #fc5a5a;}
+.product-item img {
+  display: block;
+  width: 100%;
+}
+.product-list {
+  background: rgb(220, 220, 220);
+  padding: 15px 0;
+}
+.product-list h3 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #fc5a5a;
+  display: block;
+  margin-bottom: 12px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  background: rgb(64,199,129);
+  color:white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .3s ease-in;
+}
+.product-item:hover .button {background:rgb(64,199,129);}
+
+#chlem{
+  position: absolute;
+  left:290px;
+  top: 94px;
+  width:200px;
+}
+
+.fon{
+  background-color:rgb(220, 220, 220);
+  width: 950px;
+  height: 495px;
+  position: absolute;
+  top: 135px;
+  left:120px;
+
+}
+
+
+
+
+

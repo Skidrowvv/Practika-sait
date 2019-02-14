@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(250, 240, 240);
+}
+
+.fon{
+	background-color:rgb(237, 235, 235);
+	height:450px;
+	width:750px;
+	position:fixed;
+	top:60px;
+	left:10px
+}
+
+
+.ps{
+position:absolute;
+top:105px;
+left:50px;
+font-size:18px;
+}
+
+.Karta{
+    position: absolute;
+    top: 100px;
+    right:25px;
+    top:70px
+
+}
+
+
+li{
+	list-style-type: none;
+}
+
+a{
+text-decoration:none;
+color:gray;
+position: absolute;
+top:1px
+}
+
+a:visited{
+	color:black
+}
+
+.lin{
+	background-color:rgb(64,199,129);
+	width: 1366px;
+	height: 25px;
+	position: absolute;
+	top:0px;
+	left:0px
+}
+.footer{
+  position:absolute;
+  top:560px;
+  right:-1px;
+  color:#FF6600;
+}
+
+footer{
+	background-color:rgb(64,199,129);
+	width: 1366px;
+	height: 57px;
+	position: absolute;
+	top:575px
+}
+
+ul{
+	position: absolute;
+	text-outline:495px;
+}
+
+.fot{
+	font-size:12px;
+	position: absolute;
+	top:38px
+}
